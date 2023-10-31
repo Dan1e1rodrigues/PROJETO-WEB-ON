@@ -92,3 +92,86 @@ section#sobre nav a {
     background-color: #b3ad00;
 }
 
+/* Reset some default styles */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style the footer */
+/* Estilo adicional para fazer os campos ficarem lado a lado */
+.section {
+    flex: 1;
+    padding: 0 20px; /* Adicione espaçamento horizontal entre as seções */
+    box-sizing: border-box; /* Inclua padding na largura total da seção */
+}
+
+/* Restante do CSS permanece o mesmo */
+/* Reset some default styles */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style the footer */
+/* Estilo adicional para fazer os campos ficarem lado a lado */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Restante do CSS permanece o mesmo */
+/* Reset some default styles */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Style the social media section */
+.social-media h3 {
+    font-size: 1.2em;
+}
+
+.social-media ul {
+    padding: 0;
+}
+
+.social-media li {
+    margin-bottom: 20px;
+}
+
+/* Style the contact information section */
+.contact-info h3 {
+    font-size: 1.2em;
+}
+
+.contact-info p {
+    margin-bottom: 5px;
+}
+
+/* Style the about institution section */
+.about-institution h3 {
+    font-size: 1.2em;
+}
+
+/* Adicione espaço entre os itens de contato */
+.contact-info ul li {
+    margin-bottom: 20px; /* Adicione a margem desejada entre os itens */
+}
+
+
