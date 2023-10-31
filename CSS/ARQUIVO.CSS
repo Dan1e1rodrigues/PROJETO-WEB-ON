@@ -5,21 +5,29 @@ body {
     padding: 0;
 }
 
+/* Estilos para o cabeçalho */
 header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
+    display: flex; /* Define um layout flexível para alinhar itens à esquerda e à direita */
+    justify-content: space-between; /* Distribui o espaço disponível entre os elementos filhos */
+    align-items: center; /* Centraliza verticalmente os elementos filhos */
+    background-color: #333; /* Cor de fundo do cabeçalho, altere para a cor desejada */
+    padding: 10px 100px; /* Espaçamento interno do cabeçalho, ajuste conforme necessário */
+    color: #fff; /* Cor do texto no cabeçalho, altere para a cor desejada */
 }
 
-h1 {
-    margin: 0;
+/* Estilos para o logotipo */
+.logo img {
+    max-width: 100%; /* Garante que a imagem do logotipo não ultrapasse o contêiner */
 }
 
-nav {
-    text-align: center;
-    margin-top: 0px;
+/* Estilos para os links de navegação */
+nav a {
+    color: #fff; /* Cor dos links, altere para a cor desejada */
+    text-decoration: none; /* Remove sublinhado dos links */
+    margin: 20px; /* Espaçamento horizontal entre os links, ajuste conforme necessário */
 }
+
+/* --------------------------------------------------------------------------------------- */
 
 nav a {
     text-decoration: none;
@@ -44,4 +52,27 @@ p {
 
 .project {
     margin: 20px 0;
+}
+
+#logo {
+    width:50px;
+    height: 50px;
+    max-width: 100%;
+}
+/* ------------------------------- */
+section#sobre header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Isso garante que o cabeçalho ocupe toda a altura disponível */
+}
+
+/* Estilos para os links de navegação */
+section#sobre nav {
+    text-align: center; /* Centraliza o texto horizontalmente dentro do cabeçalho */
+}
+
+section#sobre nav a {
+    margin: 0 10px; /* Espaçamento horizontal entre os links, ajuste conforme necessário */
+    text-decoration: none; /* Remove sublinhado dos links */
 }
