@@ -31,47 +31,42 @@ nav a {
 }
 
 /* Estilos para o carrossel */
-#carousel-container {
-    text-align: center;
-    padding: 20px;
+.carousel-container {
+    display: flex;
+    overflow: hidden;
+    max-width: 100%; /* Reduz a largura máxima para 60% do contêiner */
+    margin: 0 auto;
 }
 
 .carousel {
     display: flex;
-    overflow: hidden;
+    transition: transform 0.5s;
+    width: auto;
 }
 
 .carousel-slide {
-    flex: 0 0 100%;
-    transition: transform 0.5s ease-in-out;
+    flex: 0 0 100%; /* Reduz o tamanho das imagens para 60% da largura do contêiner */
 }
 
-img {
-    width: 100%;
-    height: auto;
+/* Estilos para os indicadores de slide */
+.carousel-indicators {
+    text-align: center;
+    margin-top: 10px;
 }
 
-button {
-    margin: 10px;
+.carousel-indicator {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
 }
 
-section#sobre header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%; /* Isso garante que o cabeçalho ocupe toda a altura disponível */
+.carousel-indicator.active {
+    background-color: yellow;
 }
-
-/* Estilos para os links de navegação */
-section#sobre nav {
-    text-align: center; /* Centraliza o texto horizontalmente dentro do cabeçalho */
-}
-
-section#sobre nav a {
-    margin: 0 10px; /* Espaçamento horizontal entre os links, ajuste conforme necessário */
-    text-decoration: none; /* Remove sublinhado dos links */
-}
-
 /* --- */
 .button-container {
     display: flex;
@@ -135,6 +130,7 @@ footer {
     background-color: #333;
     color: #fff;
     padding: 20px 0;
+    border-bottom: 20px solid yellow; /* Adiciona uma linha amarela de 2px na parte inferior do footer */
 }
 
 .container {
@@ -142,36 +138,25 @@ footer {
     margin: 0 auto;
 }
 
-/* Style the social media section */
-.social-media h3 {
-    font-size: 1.2em;
-}
-
+/* Estilos para os ícones das redes sociais */
 .social-media ul {
+    display: flex; /* Exibir os ícones em linha */
+    list-style: none; /* Remover a formatação da lista */
     padding: 0;
+    margin: 0;
 }
 
 .social-media li {
-    margin-bottom: 20px;
+    margin-right: 20px; /* Espaçamento entre os ícones */
+    margin-bottom: 165px;
 }
 
-/* Style the contact information section */
-.contact-info h3 {
-    font-size: 1.2em;
+.social-media a {
+    color: yellow; /* Cor dos ícones */
+    font-size: 30px; /* Tamanho dos ícones (ajuste conforme necessário) */
 }
 
-.contact-info p {
-    margin-bottom: 5px;
+#header-image {
+    max-width: 200px; /* Defina a largura máxima desejada */
+    height: auto; /* Isso permite que a altura seja ajustada automaticamente proporcionalmente à largura */
 }
-
-/* Style the about institution section */
-.about-institution h3 {
-    font-size: 1.2em;
-}
-
-/* Adicione espaço entre os itens de contato */
-.contact-info ul li {
-    margin-bottom: 20px; /* Adicione a margem desejada entre os itens */
-}
-
-

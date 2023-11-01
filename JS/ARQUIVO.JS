@@ -1,36 +1,40 @@
-function setup() {
-    createCanvas(400, 400); // Cria um canvas
-}
-
-// Função draw: chamada repetidamente para animação
-function draw() {
-    background(220); // Define a cor de fundo
-    ellipse(300, 100, 50, 50); // Desenha uma elipse
-    ellipse(200, 200, 50, 50);
-    ellipse(100, 300, 50, 50);
-}
-
 // Funcionalidade carrossel
-document.addEventListener('DOMContentLoaded', function () {
-    const carousel = document.querySelector('.carousel');
-    const slides = document.querySelectorAll('.carousel-slide');
-    const prevBtn = document.getElementById('prevBtn');
-    const nextBtn = document.getElementById('nextBtn');
-    let currentIndex = 0;
+const slides = document.querySelectorAll(".carousel-slide");
+const indicators = document.querySelectorAll(".carousel-indicator");
+let currentSlide = 0;
 
-    function showSlide(index) {
-        slides.forEach((slide, i) => {
-            slide.style.transform = `translateX(${100 * (i - index)}%)`;
-        });
-    }
-
-    prevBtn.addEventListener('click', () => {
-        currentIndex = (currentIndex - 1 + slides.length) % slides.length;
-        showSlide(currentIndex);
+function showSlide(index) {
+    slides.forEach((slide, i) => {
+        if (i === index) {
+            slide.style.transform = "translateX(0)";
+        } else {
+            slide.style.transform = "translateX(100%)";
+        }
     });
 
-    nextBtn.addEventListener('click', () => {
-        currentIndex = (currentIndex + 1) % slides.length;
-        showSlide(currentIndex);
+    indicators.forEach((indicator, i) => {
+        if (i === index) {
+            indicator.classList.add("active");
+        } else {
+            indicator.classList.remove("active");
+        }
     });
-});
+}
+
+showSlide(currentSlide);
+
+function nextSlide() {
+    currentSlide = (currentSlide + 1) % slides.length;
+    showSlide(currentSlide);
+}
+
+function prevSlide() {
+    currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+    showSlide(currentSlide);
+}
+
+const prevBtn = document.querySelector("#prevBtn");
+const nextBtn = document.querySelector("#nextBtn");
+
+prevBtn.addEventListener("click", prevSlide);
+nextBtn.addEventListener("click", nextSlide);
