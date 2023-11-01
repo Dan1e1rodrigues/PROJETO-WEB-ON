@@ -30,11 +30,25 @@ nav a {
     margin: 0 20px;
 }
 
-/* Estilos para o carrossel */
+/* ------------Estilos para o carrossel---------- */
 
 #carousel-container {
     text-align: center;
     padding: 100px;
+}
+
+#prevBtn, #nextBtn {
+    background-color: #0a2747;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#prevBtn:hover, #nextBtn:hover {
+    background-color: #b3ad00;
 }
 
 .carousel {
@@ -164,4 +178,28 @@ footer {
 #header-image {
     max-width: 200px; /* Defina a largura máxima desejada */
     height: auto; /* Isso permite que a altura seja ajustada automaticamente proporcionalmente à largura */
+}
+
+/* ------------------- descrição ---------------- */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.yellow-button {
+    background-color: #FFD700; /* Cor amarela */
+}
+
+.linkedin-button {
+    background-color: #0077B5; /* Cor do LinkedIn */
+}
+
+.profile-image {
+    max-width: 100%; /* Ajusta o tamanho da imagem para se ajustar ao contêiner */
+    height: auto;
 }
