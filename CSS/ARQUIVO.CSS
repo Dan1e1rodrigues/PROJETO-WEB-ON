@@ -32,40 +32,18 @@ nav a {
 
 /* Estilos para o carrossel */
 .carousel-container {
-    display: flex;
     overflow: hidden;
-    max-width: 100%; /* Reduz a largura máxima para 60% do contêiner */
+    width: 100%;
     margin: 0 auto;
 }
 
 .carousel {
     display: flex;
     transition: transform 0.5s;
-    width: auto;
 }
 
 .carousel-slide {
-    flex: 0 0 100%; /* Reduz o tamanho das imagens para 60% da largura do contêiner */
-}
-
-/* Estilos para os indicadores de slide */
-.carousel-indicators {
-    text-align: center;
-    margin-top: 10px;
-}
-
-.carousel-indicator {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    background-color: gray;
-    border-radius: 50%;
-    margin: 0 5px;
-    cursor: pointer;
-}
-
-.carousel-indicator.active {
-    background-color: yellow;
+    flex: 0 0 100%;
 }
 /* --- */
 .button-container {
