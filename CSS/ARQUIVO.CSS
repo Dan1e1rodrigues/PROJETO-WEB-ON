@@ -203,3 +203,22 @@ footer {
     max-width: 100%; /* Ajusta o tamanho da imagem para se ajustar ao contêiner */
     height: auto;
 }
+/* Classe para criar um layout flexível */
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilos para o contêiner de texto */
+.text-container {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Estilos para a imagem (lado direito) */
+.profile-image {
+    max-width: 100%; /* Ajusta o tamanho da imagem para se ajustar ao contêiner */
+    height: auto;
+}
+
