@@ -232,6 +232,16 @@ p {
 }
 
 /* Restante dos estilos específicos de cada seção aqui */
+.yellow-line {
+    background-color: yellow;
+    height: 3px;
+    width: 100px; /* Ajuste a largura desejada */
+    margin: 0 auto; /* Centraliza a linha horizontalmente */
+    margin-top: 10px; /* Define a margem superior desejada */
+}
 
-
+.text-center {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    padding: 20px 0; /* Espaçamento superior e inferior para afastar da imagem */
+}
 
