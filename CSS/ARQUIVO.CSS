@@ -215,14 +215,14 @@ p {
     border: 1px solid #ccc;
     border-radius: 8px;
     margin: 10px;
-    padding: 10px;
+    padding: 20px;
     width: 400px; /* Largura dos cards (ajuste conforme necessário) */
     text-align: center; /* Alinha o texto no centro do card */
 }
 
 /* Estilos para as imagens dentro dos cards (se você quiser incluir imagens) */
 .card-body img {
-    max-width: 90%; /* Ajusta o tamanho máximo da imagem */
+    max-width: 100%; /* Ajusta o tamanho máximo da imagem */
     height: auto; /* Mantém a proporção da imagem */
 }
 
