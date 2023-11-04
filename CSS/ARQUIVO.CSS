@@ -30,8 +30,7 @@ nav a {
     margin: 0 20px;
 }
 
-/* ------------Estilos para o carrossel---------- */
-
+/* Estilos para o carrossel */
 #carousel-container {
     text-align: center;
     padding: 10px;
@@ -86,7 +85,8 @@ section#sobre nav a {
     margin: 0 10px; /* Espaçamento horizontal entre os links, ajuste conforme necessário */
     text-decoration: none; /* Remove sublinhado dos links */
 }
-/* --- */
+
+/* Botões */
 .button-container {
     display: flex;
     justify-content: center;
@@ -107,14 +107,13 @@ section#sobre nav a {
     background-color: rgb(227, 255, 11);
 }
 
-/* Reset some default styles */
+/* Reset alguns estilos padrão */
 ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-/* Style the footer */
 /* Estilo adicional para fazer os campos ficarem lado a lado */
 .section {
     flex: 1;
@@ -122,35 +121,21 @@ ul {
     box-sizing: border-box; /* Inclua padding na largura total da seção */
 }
 
-/* Restante do CSS permanece o mesmo */
-/* Reset some default styles */
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-/* Style the footer */
+/* Footer */
 /* Estilo adicional para fazer os campos ficarem lado a lado */
 .footer-content {
     display: flex;
     justify-content: space-between;
 }
 
-/* Restante do CSS permanece o mesmo */
-/* Reset some default styles */
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-/* Style the footer */
 footer {
     background-color: #333;
     color: #fff;
     padding: 20px 0;
     border-bottom: 20px solid yellow; /* Adiciona uma linha amarela de 2px na parte inferior do footer */
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
 }
 
 .container {
@@ -166,15 +151,14 @@ footer {
     margin: 0;
 }
 
-/* Distancia entre os espaços das redes sociais, vai influenciar na lista */
 .social-media li {
-    margin-right: 20px; /* Espaçamento entre os ícones */
-    margin-bottom: 80px;
+    margin-right: 30px; /* Espaçamento entre os ícones */
+    margin-bottom: 100px;
 }
 
 .social-media a {
     color: yellow; /* Cor dos ícones */
-    font-size: 30px; /* Tamanho dos ícones (ajuste conforme necessário) */
+    font-size: 50px; /* Tamanho dos ícones (ajuste conforme necessário) */
 }
 
 #header-image {
@@ -182,7 +166,7 @@ footer {
     height: auto; /* Isso permite que a altura seja ajustada automaticamente proporcionalmente à largura */
 }
 
-/* ------------------- descrição ---------------- */
+/* Estilos para a descrição */
 /* Container centralizado */
 .centered-container {
     display: flex;
@@ -200,7 +184,7 @@ footer {
     text-align: justify;
 }
 
-.justified{
+.justified {
     text-align: center;
 }
 
@@ -214,5 +198,40 @@ footer {
 p {
     margin: 20px;
 }
+
+/* Card */
+
+/* Seus estilos gerais aqui */
+
+/* Define um contêiner flex para centralizar os cards na horizontal */
+.card-container {
+    display: flex;
+    justify-content: center; /* Centraliza na horizontal */
+    align-items: center; /* Centraliza na vertical */
+}
+
+/* Estilos para os cards */
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    width: 400px; /* Largura dos cards (ajuste conforme necessário) */
+    text-align: center; /* Alinha o texto no centro do card */
+}
+
+/* Estilos para as imagens dentro dos cards (se você quiser incluir imagens) */
+.card-body img {
+    max-width: 90%; /* Ajusta o tamanho máximo da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilos para o texto que fica abaixo dos cards */
+.text-below {
+    text-align: center; /* Alinha o texto no centro da página */
+}
+
+/* Restante dos estilos específicos de cada seção aqui */
+
 
 
