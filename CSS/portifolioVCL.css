@@ -1,0 +1,224 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #333333;
+    color: #fff;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilos para o logotipo */
+#logo {
+    max-width: 10%;
+    height: auto;
+    padding: 10px;
+}
+
+/* Estilos para os links de navegação no cabeçalho */
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+/* -------------- */
+
+/* Estilos para os links de navegação */
+section#sobre nav {
+    text-align: center; /* Centraliza o texto horizontalmente dentro do cabeçalho */
+}
+
+section#sobre nav a {
+    margin: 0 10px; /* Espaçamento horizontal entre os links, ajuste conforme necessário */
+    text-decoration: none; /* Remove sublinhado dos links */
+}
+
+/* Botões */
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(240, 226, 30);
+    color: #000000;
+    text-decoration: none;
+    margin: 5px;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.button:hover {
+    background-color: rgb(227, 255, 11);
+}
+
+/* Reset alguns estilos padrão */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilo adicional para fazer os campos ficarem lado a lado */
+.section {
+    flex: 1;
+    padding: 0 100px; /* Adicione espaçamento horizontal entre as seções */
+    box-sizing: border-box; /* Inclua padding na largura total da seção */
+}
+
+/* Footer */
+/* Estilo adicional para fazer os campos ficarem lado a lado */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    border-bottom: 20px solid yellow; /* Adiciona uma linha amarela de 2px na parte inferior do footer */
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilos para os ícones das redes sociais */
+.social-media ul {
+    display: flex; /* Exibir os ícones em linha */
+    list-style: none; /* Remover a formatação da lista */
+    padding: 0;
+    margin: 0;
+}
+
+.social-media li {
+    margin-right: 30px; /* Espaçamento entre os ícones */
+    margin-bottom: 100px;
+}
+
+.social-media a {
+    color: yellow; /* Cor dos ícones */
+    font-size: 50px; /* Tamanho dos ícones (ajuste conforme necessário) */
+}
+
+#header-image {
+    max-width: 200px; /* Defina a largura máxima desejada */
+    height: auto; /* Isso permite que a altura seja ajustada automaticamente proporcionalmente à largura */
+}
+
+/* Estilos para a descrição */
+/* Container centralizado */
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para o contêiner de conteúdo */
+.content {
+    max-width: 400px; /* Define a largura máxima desejada */
+    padding: 30px;
+    margin: 10px;
+    text-align: justify;
+}
+
+.justified {
+    text-align: center;
+}
+
+/* Estilos para a imagem */
+.profile-image {
+    max-width: 400px; /* Ajusta o tamanho da imagem para se ajustar ao contêiner */
+    height: auto;
+}
+
+/* Reset alguns estilos padrão */
+p {
+    margin: 20px;
+}
+
+/* Card */
+
+/* Seus estilos gerais aqui */
+
+/* Define um contêiner flex para centralizar os cards na horizontal */
+.card-container {
+    display: flex;
+    justify-content: center; /* Centraliza na horizontal */
+    align-items: center; /* Centraliza na vertical */
+}
+
+
+
+/* Estilos para o texto que fica abaixo dos cards */
+.text-below {
+    text-align: center; /* Alinha o texto no centro da página */
+}
+
+/* Restante dos estilos específicos de cada seção aqui */
+.yellow-line {
+    background-color: yellow;
+    height: 3px;
+    width: 100px; /* Ajuste a largura desejada */
+    margin: 0 auto; /* Centraliza a linha horizontalmente */
+    margin-top: 10px; /* Define a margem superior desejada */
+}
+
+.text-center {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    padding: 20px 0; /* Espaçamento superior e inferior para afastar da imagem */
+}
+
+/* CSS DA PAGINA PORTIFOLIO PESSOAL */
+#custom-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#custom-card {
+    width: 400px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc; /* Adiciona uma borda para visualização */
+}
+
+#custom-card img {
+    max-width: 50%;
+    border-radius: 100%;
+    margin-bottom: 15px;
+}
+
+#custom-card h2 {
+    color: #333;
+}
+
+#custom-card p {
+    color: #666;
+}
+
