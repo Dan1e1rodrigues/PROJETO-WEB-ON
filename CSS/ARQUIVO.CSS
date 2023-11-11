@@ -246,3 +246,18 @@ p {
 }
 
 /* CSS DA PAGINA PORTIFOLIO PESSOAL */
+/* Estilos de botão */
+/* Estilo para o botão "Fala com a gente" */
+.contact-button {
+    background-color: #ffcc00; /* Cor de fundo amarela */
+    color: #000; /* Cor do texto preto */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Ícone de cursor de mão ao passar por cima */
+    font-size: 14px; /* Tamanho da fonte */
+}
+
+.contact-button:hover {
+    background-color: #e6b800; /* Cor de fundo amarela mais escura no hover */
+}

@@ -222,3 +222,102 @@ p {
     color: #666;
 }
 
+/* Contato */
+
+/* Estilos adicionais para a seção de contato */
+#contact-section {
+    background-color: rgb(255, 255, 255); /* Altere a cor de fundo conforme necessário */
+    padding: 40px;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px; /* Espaço entre os botões */
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: rgb(240, 226, 30);
+    color: #000000;
+    text-decoration: none;
+    margin: 5px;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.linkedin-button {
+    background-color: #e7e007; /* Cor específica para o botão do LinkedIn */
+}
+
+.cloud-button {
+    background-color: #e7e007; /* Cor específica para o botão de download */
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.contact-icons div {
+    text-align: center;
+}
+
+.contact-icons i {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Adicione estilos para o texto, h2 e p conforme necessário */
+.contact-details {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-details p {
+    font-size: 16px;
+}
+
+.button.yellow-button {
+    background-color: rgb(240, 226, 30);
+    color: #000000;
+}
+
+/* Estilo para o botão "Fala com a gente" */
+.contact-button {
+    background-color: #ffcc00; /* Cor de fundo amarela */
+    color: #000; /* Cor do texto preto */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Ícone de cursor de mão ao passar por cima */
+    font-size: 14px; /* Tamanho da fonte */
+}
+
+.contact-button:hover {
+    background-color: #e6b800; /* Cor de fundo amarela mais escura no hover */
+}
+
+
+
+
