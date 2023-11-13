@@ -6,59 +6,64 @@ body {
     padding: 0;
 }
 
+/* Estilos para o logotipo */
+#logo {
+    max-width: 100px; /* Ajuste o tamanho máximo desejado */
+    height: auto; /* Isso mantém a proporção da imagem */
+    padding: 10px;
+}
+
 /* Estilos para o cabeçalho */
 header {
-    background-color: #333333;
+    background-color: #F87509;
     color: #fff;
-    padding: 0;
+    padding: 10px 0; /* Adicione algum espaçamento acima e abaixo do cabeçalho */
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-/* Estilos para o logotipo */
-#logo {
-    max-width: 10%;
-    height: auto;
-    padding: 10px;
+/* Estilos para a navegação */
+header nav {
+    display: flex;
+    align-items: center;
 }
 
 /* Estilos para os links de navegação no cabeçalho */
-nav a {
+header nav a {
     color: #fff;
     text-decoration: none;
-    margin: 0 20px;
+    margin-right: 20px; /* Adapte o valor conforme necessário para ajustar o espaçamento */
 }
 
-/* Estilos para o carrossel */
-#carousel-container {
-    text-align: center;
-    padding: 10px;
-}
-
-#prevBtn, #nextBtn {
-    background-color: #0a2747;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    margin: 10px;
-    cursor: pointer;
-}
-
-#prevBtn:hover, #nextBtn:hover {
-    background-color: #b3ad00;
-}
-
-.carousel {
+/* Estilos para os botões do cabeçalho e a logo */
+.header-buttons {
     display: flex;
-    overflow: hidden;
+    align-items: center;
 }
 
-.carousel-slide {
-    flex: 0 0 100%;
-    transition: transform 0.5s ease-in-out;
+/* Botão de contato da home  */
+.contact-button {
+    background-color: #F87509;
+    color: #fff;
+    padding: 10px 20px;
+    border: solid;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 10px; /* Adapte o valor conforme necessário para ajustar o espaçamento */
 }
+
+/* Estilos para a logo redonda */
+.logo-redonda {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px; /* Adapte o valor conforme necessário para ajustar o espaçamento */
+}
+
+
+/* Adicione os estilos específicos para outras seções abaixo, se necessário */
 
 img {
     width: 100%;
@@ -68,7 +73,34 @@ img {
 button {
     margin: 10px;
 }
+/* Agora pagina de descrção senac */
+.meu-retangulo {
+    background-color: #F87509;
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 100px;
+}
 
+.imagem-container {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.imagem-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.texto-container {
+    flex: 1;
+    color: #fff;
+}
+
+.texto-container h2 {
+    margin: 0;
+}
+/* Fim pagina de descrição */
 section#sobre header {
     display: flex;
     align-items: center;
@@ -248,15 +280,6 @@ p {
 /* CSS DA PAGINA PORTIFOLIO PESSOAL */
 /* Estilos de botão */
 /* Estilo para o botão "Fala com a gente" */
-.contact-button {
-    background-color: #ffcc00; /* Cor de fundo amarela */
-    color: #000; /* Cor do texto preto */
-    padding: 10px 20px; /* Espaçamento interno */
-    border: none; /* Sem borda */
-    border-radius: 5px; /* Borda arredondada */
-    cursor: pointer; /* Ícone de cursor de mão ao passar por cima */
-    font-size: 14px; /* Tamanho da fonte */
-}
 
 .contact-button:hover {
     background-color: #e6b800; /* Cor de fundo amarela mais escura no hover */
