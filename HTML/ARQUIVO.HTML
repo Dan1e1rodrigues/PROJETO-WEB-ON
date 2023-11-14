@@ -6,6 +6,8 @@
     <link rel="stylesheet" type="text/css" href="../CSS/ARQUIVO.CSS">
     <title>Meu Portfólio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- Inclua a biblioteca P5.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
 </head>
 <body>
 
@@ -30,6 +32,73 @@
     <div class="banner">
       <img src="../ASSETS/ArquivosC/banner 1.png" alt="Banner Image">
     </div>
+
+     <!-- Seção P5.js -->
+  <script>
+    function setup() {
+  createCanvas(1480, 500, WEBGL);
+}
+
+function draw() {
+  background(0);
+  
+//   1
+  translate(-240, -100, 0);
+  normalMaterial();
+  push();
+  rotateZ(frameCount * 0.01); 
+  rotateX(frameCount * 0.01); 
+  rotateY(frameCount * 0.01); 
+  plane(70);
+  pop();
+  
+//   2
+  translate(240, 0, 0);
+  push();
+  rotateZ(frameCount * 0.01); 
+  rotateX(frameCount * 0.01); 
+  rotateY(frameCount * 0.01); 
+  box(70, 70, 70);
+  pop();
+//   3
+  translate(240, 0, 0);
+  push();
+  rotateZ(frameCount * 0.01); 
+  rotateX(frameCount * 0.01); 
+  rotateY(frameCount * 0.01); 
+  cylinder(70,70);
+  pop();
+//   4
+  translate(-240 * 2, 200,0);
+  normalMaterial();
+  push();
+  rotateZ(frameCount * 0.01); 
+  rotateX(frameCount * 0.01); 
+  rotateY(frameCount * 0.01); 
+  cone(70);
+  pop();
+//   5
+  translate(240 ,0,0);
+  normalMaterial();
+  push();
+  rotateZ(frameCount * 0.01); 
+  rotateX(frameCount * 0.01); 
+  rotateY(frameCount * 0.01); 
+  torus(70);
+  pop();
+//   6
+  translate(240,0,0);
+  normalMaterial();
+  push();
+  rotateZ(frameCount * 0.01); 
+  rotateX(frameCount * 0.01); 
+  rotateY(frameCount * 0.01); 
+  sphere(70);
+  pop();
+
+  
+}
+  </script>
 
     <div class="meu-retangulo">
       <div class="imagem-container">
@@ -94,7 +163,7 @@
     </div>
   </div>
   <!-- ------------- -->
-<hr>
+  <hr>
 
 <!-- Segunda seção -->
 <section id="Outra-secao" class="centered-container">
@@ -117,7 +186,7 @@
   <h2 style="color: black; margin: 20px 0;">Projetos destaque do semestre</h2>
   <div class="yellow-line"></div>
 </div>
-<hr>
+
 <!-- Portifolio leo -->
 <section id="Outra-secao" class="centered-container">
   <div class="content">
@@ -130,6 +199,7 @@
   </div>
   <img src="../ASSETS/ArquivosL/Captura de tela 2023-11-11 193350.png" alt="Victoria França" class="profile-image">
 </section>
+<hr>
 
 <!-- Portifolio Victória -->
 <section id="Mais-uma-secao" class="centered-container">
@@ -236,5 +306,6 @@
     </footer>
 
     <script src="../JS/ARQUIVO.JS"></script>
+   
 </body>
 </html>
