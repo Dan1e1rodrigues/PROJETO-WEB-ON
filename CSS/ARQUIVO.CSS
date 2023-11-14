@@ -8,8 +8,8 @@ body {
 
 /* Estilos para o logotipo */
 #logo {
-    max-width: 100px; /* Ajuste o tamanho máximo desejado */
-    height: auto; /* Isso mantém a proporção da imagem */
+    max-width: 100px;
+    height: auto;
     padding: 10px;
 }
 
@@ -17,7 +17,7 @@ body {
 header {
     background-color: #F87509;
     color: #fff;
-    padding: 10px 0; /* Adicione algum espaçamento acima e abaixo do cabeçalho */
+    padding: 10px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,7 +33,7 @@ header nav {
 header nav a {
     color: #fff;
     text-decoration: none;
-    margin-right: 20px; /* Adapte o valor conforme necessário para ajustar o espaçamento */
+    margin-right: 20px;
 }
 
 /* Estilos para os botões do cabeçalho e a logo */
@@ -51,7 +51,7 @@ header nav a {
     border-radius: 10px;
     cursor: pointer;
     font-size: 14px;
-    margin-right: 10px; /* Adapte o valor conforme necessário para ajustar o espaçamento */
+    margin-right: 10px;
 }
 
 /* Estilos para a logo redonda */
@@ -59,9 +59,8 @@ header nav a {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    margin-right: 10px; /* Adapte o valor conforme necessário para ajustar o espaçamento */
+    margin-right: 10px;
 }
-
 
 /* Adicione os estilos específicos para outras seções abaixo, se necessário */
 
@@ -73,6 +72,7 @@ img {
 button {
     margin: 10px;
 }
+
 /* Agora pagina de descrção senac */
 .meu-retangulo {
     background-color: #F87509;
@@ -105,17 +105,17 @@ section#sobre header {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%; /* Isso garante que o cabeçalho ocupe toda a altura disponível */
+    height: 100%;
 }
 
 /* Estilos para os links de navegação */
 section#sobre nav {
-    text-align: center; /* Centraliza o texto horizontalmente dentro do cabeçalho */
+    text-align: center;
 }
 
 section#sobre nav a {
-    margin: 0 10px; /* Espaçamento horizontal entre os links, ajuste conforme necessário */
-    text-decoration: none; /* Remove sublinhado dos links */
+    margin: 0 10px;
+    text-decoration: none;
 }
 
 /* Botões */
@@ -149,8 +149,8 @@ ul {
 /* Estilo adicional para fazer os campos ficarem lado a lado */
 .section {
     flex: 1;
-    padding: 0 100px; /* Adicione espaçamento horizontal entre as seções */
-    box-sizing: border-box; /* Inclua padding na largura total da seção */
+    padding: 0 100px;
+    box-sizing: border-box;
 }
 
 /* Footer */
@@ -161,10 +161,10 @@ ul {
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #ffffff;
+    color: #4a4848;
     padding: 20px 0;
-    border-bottom: 20px solid yellow; /* Adiciona uma linha amarela de 2px na parte inferior do footer */
+    border-bottom: 20px solid yellow;
     margin: 0;
     text-align: center;
     font-size: 18px;
@@ -177,25 +177,25 @@ footer {
 
 /* Estilos para os ícones das redes sociais */
 .social-media ul {
-    display: flex; /* Exibir os ícones em linha */
-    list-style: none; /* Remover a formatação da lista */
+    display: flex;
+    list-style: none;
     padding: 0;
     margin: 0;
 }
 
 .social-media li {
-    margin-right: 30px; /* Espaçamento entre os ícones */
+    margin-right: 30px;
     margin-bottom: 100px;
 }
 
 .social-media a {
-    color: yellow; /* Cor dos ícones */
-    font-size: 50px; /* Tamanho dos ícones (ajuste conforme necessário) */
+    color: #F87509;
+    font-size: 50px;
 }
 
 #header-image {
-    max-width: 200px; /* Defina a largura máxima desejada */
-    height: auto; /* Isso permite que a altura seja ajustada automaticamente proporcionalmente à largura */
+    max-width: 200px;
+    height: auto;
 }
 
 /* Estilos para a descrição */
@@ -210,7 +210,7 @@ footer {
 
 /* Estilos para o contêiner de conteúdo */
 .content {
-    max-width: 400px; /* Define a largura máxima desejada */
+    max-width: 400px;
     padding: 30px;
     margin: 10px;
     text-align: justify;
@@ -222,7 +222,7 @@ footer {
 
 /* Estilos para a imagem */
 .profile-image {
-    max-width: 400px; /* Ajusta o tamanho da imagem para se ajustar ao contêiner */
+    max-width: 400px;
     height: auto;
 }
 
@@ -231,14 +231,13 @@ p {
     margin: 20px;
 }
 
-
 /* Seus estilos gerais aqui */
 
 /* Define um contêiner flex para centralizar os cards na horizontal */
 .card-container {
     display: flex;
-    justify-content: center; /* Centraliza na horizontal */
-    align-items: center; /* Centraliza na vertical */
+    justify-content: center;
+    align-items: center;
 }
 
 /* Estilos para os cards */
@@ -247,39 +246,38 @@ p {
     border-radius: 8px;
     margin: 10px;
     padding: 20px;
-    width: 400px; /* Largura dos cards (ajuste conforme necessário) */
-    text-align: center; /* Alinha o texto no centro do card */
+    width: 400px;
+    text-align: center;
 }
 
 /* Estilos para as imagens dentro dos cards (se você quiser incluir imagens) */
 .card-body img {
-    max-width: 100%; /* Ajusta o tamanho máximo da imagem */
-    height: auto; /* Mantém a proporção da imagem */
+    max-width: 100%;
+    height: auto;
 }
 
 /* Estilos para o texto que fica abaixo dos cards */
 .text-below {
-    text-align: center; /* Alinha o texto no centro da página */
+    text-align: center;
 }
 
 /* Restante dos estilos específicos de cada seção aqui */
 .yellow-line {
-    background-color: yellow;
-    height: 3px;
-    width: 100px; /* Ajuste a largura desejada */
-    margin: 0 auto; /* Centraliza a linha horizontalmente */
-    margin-top: 10px; /* Define a margem superior desejada */
+    background-color: #F87509;
+    height: 5px;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
 .text-center {
-    text-align: center; /* Centraliza o texto horizontalmente */
-    padding: 20px 0; /* Espaçamento superior e inferior para afastar da imagem */
+    text-align: center;
+    padding: 20px 0;
 }
 
 /* CSS DA PAGINA PORTIFOLIO PESSOAL */
-/* Estilos de botão */
 /* Estilo para o botão "Fala com a gente" */
 
 .contact-button:hover {
-    background-color: #e6b800; /* Cor de fundo amarela mais escura no hover */
+    background-color: #e6b800;
 }
