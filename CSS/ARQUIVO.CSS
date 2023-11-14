@@ -163,11 +163,11 @@ ul {
 footer {
     background-color: #ffffff;
     color: #4a4848;
-    padding: 20px 0;
+    padding: 10px 0;
     border-bottom: 20px solid yellow;
     margin: 0;
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .container {
@@ -175,6 +175,15 @@ footer {
     margin: 0 auto;
 }
 
+/* Estilos para o texto "Sobre a Instituição" */
+.about-text  {
+    margin: 10px;
+    padding: 0 20px;
+    text-align: justify;
+    line-height: 1.0; /* Ajusta a altura da linha para melhor legibilidade */
+    max-width: 100%; /* Garante que o texto não ultrapasse a largura máxima do contêiner pai */
+    font-size: 15px;
+}
 /* Estilos para os ícones das redes sociais */
 .social-media ul {
     display: flex;
@@ -272,7 +281,6 @@ p {
 
 .text-center {
     text-align: center;
-    padding: 20px 0;
 }
 
 /* CSS DA PAGINA PORTIFOLIO PESSOAL */
