@@ -6,40 +6,116 @@ body {
     padding: 0;
 }
 
+/* Estilos para o logotipo */
+#logo {
+    max-width: 100px;
+    height: auto;
+    padding: 10px;
+}
+
 /* Estilos para o cabeçalho */
 header {
-    background-color: #333333;
+    background-color: #F87509;
     color: #fff;
-    padding: 0;
+    padding: 10px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-/* Estilos para o logotipo */
-#logo {
-    max-width: 10%;
-    height: auto;
-    padding: 10px;
+/* Estilos para a navegação */
+header nav {
+    display: flex;
+    align-items: center;
 }
 
 /* Estilos para os links de navegação no cabeçalho */
-nav a {
+header nav a {
     color: #fff;
     text-decoration: none;
-    margin: 0 20px;
+    margin-right: 20px;
 }
 
-/* -------------- */
+/* Estilos para os botões do cabeçalho e a logo */
+.header-buttons {
+    display: flex;
+    align-items: center;
+}
+
+/* Botão de contato da home  */
+.contact-button {
+    background-color: #F87509;
+    color: #fff;
+    padding: 10px 20px;
+    border: solid;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+/* Estilos para a logo redonda */
+.logo-redonda {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Adicione os estilos específicos para outras seções abaixo, se necessário */
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+button {
+    margin: 10px;
+}
+
+/* Agora pagina de descrção senac */
+.meu-retangulo {
+    background-color: #F87509;
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 100px;
+}
+
+.imagem-container {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.imagem-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.texto-container {
+    flex: 1;
+    color: #fff;
+}
+
+.texto-container h2 {
+    margin: 0;
+}
+/* Fim pagina de descrição */
+section#sobre header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
 
 /* Estilos para os links de navegação */
 section#sobre nav {
-    text-align: center; /* Centraliza o texto horizontalmente dentro do cabeçalho */
+    text-align: center;
 }
 
 section#sobre nav a {
-    margin: 0 10px; /* Espaçamento horizontal entre os links, ajuste conforme necessário */
-    text-decoration: none; /* Remove sublinhado dos links */
+    margin: 0 10px;
+    text-decoration: none;
 }
 
 /* Botões */
@@ -73,8 +149,8 @@ ul {
 /* Estilo adicional para fazer os campos ficarem lado a lado */
 .section {
     flex: 1;
-    padding: 0 100px; /* Adicione espaçamento horizontal entre as seções */
-    box-sizing: border-box; /* Inclua padding na largura total da seção */
+    padding: 0 100px;
+    box-sizing: border-box;
 }
 
 /* Footer */
@@ -85,13 +161,13 @@ ul {
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    border-bottom: 20px solid yellow; /* Adiciona uma linha amarela de 2px na parte inferior do footer */
+    background-color: #ffffff;
+    color: #4a4848;
+    padding: 10px 0;
+    border-bottom: 20px solid  #F87509;
     margin: 0;
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .container {
@@ -99,27 +175,36 @@ footer {
     margin: 0 auto;
 }
 
+/* Estilos para o texto "Sobre a Instituição" */
+.about-text  {
+    margin: 10px;
+    padding: 0 20px;
+    text-align: justify;
+    line-height: 1.0; /* Ajusta a altura da linha para melhor legibilidade */
+    max-width: 100%; /* Garante que o texto não ultrapasse a largura máxima do contêiner pai */
+    font-size: 15px;
+}
 /* Estilos para os ícones das redes sociais */
 .social-media ul {
-    display: flex; /* Exibir os ícones em linha */
-    list-style: none; /* Remover a formatação da lista */
+    display: flex;
+    list-style: none;
     padding: 0;
     margin: 0;
 }
 
 .social-media li {
-    margin-right: 30px; /* Espaçamento entre os ícones */
+    margin-right: 30px;
     margin-bottom: 100px;
 }
 
 .social-media a {
-    color: yellow; /* Cor dos ícones */
-    font-size: 50px; /* Tamanho dos ícones (ajuste conforme necessário) */
+    color: #F87509;
+    font-size: 50px;
 }
 
 #header-image {
-    max-width: 200px; /* Defina a largura máxima desejada */
-    height: auto; /* Isso permite que a altura seja ajustada automaticamente proporcionalmente à largura */
+    max-width: 200px;
+    height: auto;
 }
 
 /* Estilos para a descrição */
@@ -134,7 +219,7 @@ footer {
 
 /* Estilos para o contêiner de conteúdo */
 .content {
-    max-width: 400px; /* Define a largura máxima desejada */
+    max-width: 400px;
     padding: 30px;
     margin: 10px;
     text-align: justify;
@@ -146,7 +231,7 @@ footer {
 
 /* Estilos para a imagem */
 .profile-image {
-    max-width: 400px; /* Ajusta o tamanho da imagem para se ajustar ao contêiner */
+    max-width: 400px;
     height: auto;
 }
 
@@ -155,169 +240,135 @@ p {
     margin: 20px;
 }
 
-/* Card */
-
 /* Seus estilos gerais aqui */
 
 /* Define um contêiner flex para centralizar os cards na horizontal */
 .card-container {
     display: flex;
-    justify-content: center; /* Centraliza na horizontal */
-    align-items: center; /* Centraliza na vertical */
+    justify-content: center;
+    align-items: center;
 }
 
+/* Estilos para os cards */
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+}
 
+/* Estilos para as imagens dentro dos cards (se você quiser incluir imagens) */
+.card-body img {
+    max-width: 100%;
+    height: auto;
+}
 
 /* Estilos para o texto que fica abaixo dos cards */
 .text-below {
-    text-align: center; /* Alinha o texto no centro da página */
+    text-align: center;
 }
 
 /* Restante dos estilos específicos de cada seção aqui */
 .yellow-line {
-    background-color: yellow;
-    height: 3px;
-    width: 100px; /* Ajuste a largura desejada */
-    margin: 0 auto; /* Centraliza a linha horizontalmente */
-    margin-top: 10px; /* Define a margem superior desejada */
+    background-color: #F87509;
+    height: 5px;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
 .text-center {
-    text-align: center; /* Centraliza o texto horizontalmente */
-    padding: 20px 0; /* Espaçamento superior e inferior para afastar da imagem */
+    text-align: center;
 }
 
 /* CSS DA PAGINA PORTIFOLIO PESSOAL */
-#custom-container {
+
+/* Estilo para o botão "Fala com a gente" */
+
+.contact-button:hover {
+    background-color: #e6b800;
+}
+
+/* Estilos para a seção de contato */
+#contact-section {
+    background-color: #F87509;
+    color: #000000;
+    padding: 50px 0;
+}
+
+#contact-section .content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#contact-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contact-section .button-container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+    margin-bottom: 30px;
 }
 
-#custom-card {
-    width: 400px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 0px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid #ccc; /* Adiciona uma borda para visualização */
-}
-
-#custom-card img {
-    max-width: 50%;
-    border-radius: 100%;
-    margin-bottom: 15px;
-}
-
-#custom-card h2 {
-    color: #333;
-}
-
-#custom-card p {
-    color: #666;
-}
-
-/* Contato */
-
-/* Estilos adicionais para a seção de contato */
-#contact-section {
-    background-color: rgb(255, 255, 255); /* Altere a cor de fundo conforme necessário */
-    padding: 40px;
-}
-
-.button-container {
-    display: flex;
-    gap: 10px; /* Espaço entre os botões */
-}
-
-.button {
-    display: flex;
-    align-items: center;
-    padding: 10px 30px;
-    background-color: rgb(240, 226, 30);
-    color: #000000;
+#contact-section .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
     text-decoration: none;
-    margin: 5px;
     border-radius: 5px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.linkedin-button {
-    background-color: #e7e007; /* Cor específica para o botão do LinkedIn */
+#contact-section .linkedin-button {
+    background-color: rgb(0, 119, 181);
+    color: #fff;
 }
 
-.cloud-button {
-    background-color: #e7e007; /* Cor específica para o botão de download */
+#contact-section .cloud-button {
+    background-color: rgb(0, 119, 181);
+    color: #000;
 }
 
-.contact-icons {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-}
-
-.contact-icons div {
+#contact-section .contact-details {
     text-align: center;
 }
 
-.contact-icons i {
-    font-size: 24px;
+#contact-section .contact-details h2 {
     margin-bottom: 10px;
 }
 
-.contact-form {
+#contact-section .contact-icons {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
-.contact-form input,
-.contact-form textarea {
-    margin-bottom: 10px;
+#contact-section .contact-icons div {
+    text-align: center;
+    margin-right: 20px;
+}
+
+#contact-section .contact-form input,
+#contact-section .contact-form textarea {
+    width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    border: 1px solid #fff;
     border-radius: 5px;
-}
-
-/* Adicione estilos para o texto, h2 e p conforme necessário */
-.contact-details {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.contact-details h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.contact-details p {
-    font-size: 16px;
-}
-
-.button.yellow-button {
-    background-color: rgb(240, 226, 30);
+    background-color: transparent;
     color: #000000;
 }
 
-/* Estilo para o botão "Fala com a gente" */
-.contact-button {
-    background-color: #ffcc00; /* Cor de fundo amarela */
-    color: #000; /* Cor do texto preto */
-    padding: 10px 20px; /* Espaçamento interno */
-    border: none; /* Sem borda */
-    border-radius: 5px; /* Borda arredondada */
-    cursor: pointer; /* Ícone de cursor de mão ao passar por cima */
-    font-size: 14px; /* Tamanho da fonte */
+#contact-section .contact-form button {
+    background-color: #fff;
+    color: #000000;
+    cursor: pointer;
 }
 
-.contact-button:hover {
-    background-color: #e6b800; /* Cor de fundo amarela mais escura no hover */
+#contact-section .contact-form button:hover {
+    background-color: #fff;
 }
-
-
-
-
