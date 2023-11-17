@@ -180,7 +180,7 @@ footer {
     margin: 10px;
     padding: 0 20px;
     text-align: justify;
-    line-height: 1.0; /* Ajusta a altura da linha para melhor legibilidade */
+    line-height: 0.9; /* Ajusta a altura da linha para melhor legibilidade */
     max-width: 100%; /* Garante que o texto não ultrapasse a largura máxima do contêiner pai */
     font-size: 15px;
 }
@@ -259,6 +259,12 @@ p {
     text-align: center;
 }
 
+/* Removwndo o link Talvez remover cor  */
+a {
+    text-decoration: none;
+    color: #F87509;
+}
+
 /* Estilos para as imagens dentro dos cards (se você quiser incluir imagens) */
 .card-body img {
     max-width: 100%;
@@ -289,3 +295,4 @@ p {
 .contact-button:hover {
     background-color: #e6b800;
 }
+
