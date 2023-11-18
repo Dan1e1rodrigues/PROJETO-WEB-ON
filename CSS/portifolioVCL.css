@@ -382,7 +382,7 @@ p {
 
 /* Classe banner editar tamnho */
 .bannerpg {
-    max-width: 1100px; /* Defina o valor desejado para a largura máxima da div */
+    max-width: 900px; /* Defina o valor desejado para a largura máxima da div */
     margin: 0 auto; /* Centraliza a div na página */
 }
 
@@ -394,8 +394,8 @@ p {
 
 /* Aqui consigo mexer com a linha de Experiencia timeline */
 .text-center{
-    padding: 20px;
-    margin: 20px;
+    padding: 40px;
+    margin: 40px;
 }
 
 /* CSS do sobre mim */
@@ -454,7 +454,7 @@ p {
 
   .paragrafo-sobre-portifolio {
     text-align: justify;
-    font-size: 15px;
+    font-size: 14px;
   }
 
   /* Classes para os textos */
@@ -469,3 +469,19 @@ p {
   .title-color {
     color: #F87509;
   }
+
+  /* Banner para andorid */
+  .banner-container {
+    display: flex;
+    justify-content: center;
+}
+
+.banner {
+    flex: 0 0 15%; /* Ajuste conforme necessário */
+    margin: 0 10px; /* Adiciona margem entre os banners */
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
