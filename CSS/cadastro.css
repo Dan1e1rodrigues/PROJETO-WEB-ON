@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-    width: 300px;
+    width: 400px;
     background: #fff;
     margin: 0 auto;
     margin-top: 50px;
@@ -60,5 +60,28 @@ button {
   }
   
   button:hover {
-    background-color: #0056b3;
+    background-color: #a5a312;
   }
+
+.cadastroEdit{
+    color:#F87509;
+}
+
+button {
+    background-color: #F87509;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+.cadastroLink{
+    color:#F87509;
+    text-decoration: none; /* Remove sublinhado */
+}
+
+.ImagemLogo {
+    width: 200px; /* Ou qualquer valor desejado para a largura */
+    height: 100px; /* Ou qualquer valor desejado para a altura */
+}

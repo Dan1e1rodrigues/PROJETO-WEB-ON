@@ -42,7 +42,7 @@ input {
 }
 
 button {
-  background-color: #007BFF;
+  background-color: #F87509;
   color: #fff;
   padding: 10px;
   border: none;
@@ -51,5 +51,20 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #a5a312;
+}
+
+.loginEdit{
+  color:#F87509;
+  font-size: 20px;
+}
+
+.cadastroEdit{
+  color:#F87509;
+  text-decoration: none; /* Remove sublinhado */
+}
+
+.ImagemLogo {
+  width: 200px; /* Ou qualquer valor desejado para a largura */
+  height: 100px; /* Ou qualquer valor desejado para a altura */
 }
