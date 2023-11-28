@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Carla, Leo, Victoria">
+    <!-- Meta name descrição -->
+    <meta name="description" content="Pagina de cadastro">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de Cadastro</title>
     <link rel="stylesheet" type="text/css" href="../CSS/cadastro.css">
@@ -17,6 +20,7 @@
             form.addEventListener('submit', function(event) {
                 event.preventDefault();
 
+                //Const de email e de senha para fazer a verificação de credenciais
                 const email = document.getElementById('email').value;
                 const senha = document.getElementById('senha').value;
 
@@ -24,11 +28,13 @@
                 localStorage.setItem('email', email);
                 localStorage.setItem('senha', senha);
 
+                // Redirecione para a página de login
                 alert('Cadastro bem-sucedido!');
-                window.location.href = '../HTML/login.html'; // Redirecione para a página de login
+                window.location.href = '../HTML/login.html'; 
             });
         });
     </script>
+
 </head>
 <body>
     <div class="container">

@@ -2,12 +2,81 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Victória">
+    <!-- Meta name descrição -->
+    <meta name="description" content="Pagina de projeto Minimize">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../CSS/portifolioVCL.css">
     <title>Projeto Minimize</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <!-- Inclua a biblioteca P5.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+
+    <!-- JavaScript function Usando Biblioteca P5.JS-->
+    <script>
+      // P5.js script aqui
+      function setup() {
+    createCanvas(1480, 500, WEBGL);
+  }
+
+    function draw() {
+      background(0);
+      
+    //   1
+      translate(-240, -100, 0);
+      normalMaterial();
+      push();
+      rotateZ(frameCount * 0.01); 
+      rotateX(frameCount * 0.01); 
+      rotateY(frameCount * 0.01); 
+      plane(70);
+      pop();
+      
+    //   2
+      translate(240, 0, 0);
+      push();
+      rotateZ(frameCount * 0.01); 
+      rotateX(frameCount * 0.01); 
+      rotateY(frameCount * 0.01); 
+      box(70, 70, 70);
+      pop();
+    //   3
+      translate(240, 0, 0);
+      push();
+      rotateZ(frameCount * 0.01); 
+      rotateX(frameCount * 0.01); 
+      rotateY(frameCount * 0.01); 
+      cylinder(70,70);
+      pop();
+    //   4
+      translate(-240 * 2, 200,0);
+      normalMaterial();
+      push();
+      rotateZ(frameCount * 0.01); 
+      rotateX(frameCount * 0.01); 
+      rotateY(frameCount * 0.01); 
+      cone(70);
+      pop();
+    //   5
+      translate(240 ,0,0);
+      normalMaterial();
+      push();
+      rotateZ(frameCount * 0.01); 
+      rotateX(frameCount * 0.01); 
+      rotateY(frameCount * 0.01); 
+      torus(70);
+      pop();
+    //   6
+      translate(240,0,0);
+      normalMaterial();
+      push();
+      rotateZ(frameCount * 0.01); 
+      rotateX(frameCount * 0.01); 
+      rotateY(frameCount * 0.01); 
+      sphere(70);
+      pop();
+      }
+  </script>
 </head>
 <body>
 
@@ -27,83 +96,6 @@
       </div>
   </nav>
 </header>
-
-    <!-- Banner simples -->
-    <!-- <div class="banner">
-      <img src="../ASSETS/ArquivosC/banner 1.png" alt="Banner Image">
-    </div> -->
-
-     <!-- Seção P5.js -->
-  <script>
-    function setup() {
-  createCanvas(1480, 500, WEBGL);
-}
-
-function draw() {
-  background(0);
-  
-//   1
-  translate(-240, -100, 0);
-  normalMaterial();
-  push();
-  rotateZ(frameCount * 0.01); 
-  rotateX(frameCount * 0.01); 
-  rotateY(frameCount * 0.01); 
-  plane(70);
-  pop();
-  
-//   2
-  translate(240, 0, 0);
-  push();
-  rotateZ(frameCount * 0.01); 
-  rotateX(frameCount * 0.01); 
-  rotateY(frameCount * 0.01); 
-  box(70, 70, 70);
-  pop();
-//   3
-  translate(240, 0, 0);
-  push();
-  rotateZ(frameCount * 0.01); 
-  rotateX(frameCount * 0.01); 
-  rotateY(frameCount * 0.01); 
-  cylinder(70,70);
-  pop();
-//   4
-  translate(-240 * 2, 200,0);
-  normalMaterial();
-  push();
-  rotateZ(frameCount * 0.01); 
-  rotateX(frameCount * 0.01); 
-  rotateY(frameCount * 0.01); 
-  cone(70);
-  pop();
-//   5
-  translate(240 ,0,0);
-  normalMaterial();
-  push();
-  rotateZ(frameCount * 0.01); 
-  rotateX(frameCount * 0.01); 
-  rotateY(frameCount * 0.01); 
-  torus(70);
-  pop();
-//   6
-  translate(240,0,0);
-  normalMaterial();
-  push();
-  rotateZ(frameCount * 0.01); 
-  rotateX(frameCount * 0.01); 
-  rotateY(frameCount * 0.01); 
-  sphere(70);
-  pop();
-
-  
-}
-  </script>
-
-    <!-- <div class="text-center">
-      <h2 style="color: black; margin: 20px 0;">Principais projetos</h2>
-      <div class="yellow-line"></div>
-    </div> -->
 
       <!-- Banner simples 1 -->
       <div class="bannerpg">
@@ -135,7 +127,7 @@ function draw() {
             </a>
         </div>
         <div class="contact-details">
-            <h2>Contate Carla Santos</h2>
+            <h2>Contate Victória França</h2>
             <p>Assumimos o compromisso de processar as informações para entrar em contato com você e conversar sobre seu projeto.</p>
         </div>
         <div class="contact-icons">
@@ -218,8 +210,5 @@ function draw() {
             </div>
         </div>
     </footer>
-
-    <script src="../JS/ARQUIVO.JS"></script>
-   
 </body>
 </html>

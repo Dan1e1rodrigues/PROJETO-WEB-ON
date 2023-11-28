@@ -2,34 +2,45 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Carla, Leo, Victoria">
+    <!-- Meta name descrição -->
+    <meta name="description" content="Pagina de Login">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Faça seu login</title>
     <link rel="stylesheet" type="text/css" href="../CSS/login.css">
     
     <!-- JavaScript incorporado -->
     <script>
+        // Aguarde o carregamento completo do DOM antes de executar o código
         document.addEventListener('DOMContentLoaded', function() {
-            const loginForm = document.querySelector('form');
 
-            loginForm.addEventListener('submit', function(event) {
-                event.preventDefault();
+        // Encontre o formulário no documento
+        const loginForm = document.querySelector('form');
 
-                const username = document.getElementById('username').value;
-                const password = document.getElementById('password').value;
+        // Adicione um ouvinte de evento para o envio do formulário
+        loginForm.addEventListener('submit', function(event) {
+            // Evite o comportamento padrão de envio de formulário
+            event.preventDefault();
 
-                // Recupere o email e senha do localStorage
-                const savedEmail = localStorage.getItem('email');
-                const savedPassword = localStorage.getItem('senha');
+            // Obtenha os valores do campo de nome de usuário e senha
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
 
-                // Verifique as credenciais
-                if (username === savedEmail && password === savedPassword) {
-                    alert('Login bem-sucedido! Redirecionando para a página principal.');
-                    // Redirecione para minha home
-                    window.location.href = '../HTML/ARQUIVO.HTML';
-                } else {
-                    alert('Login falhou. Verifique suas credenciais.');
-                }
-            });
+            // Recupere o email e senha armazenados no localStorage
+            const savedEmail = localStorage.getItem('email');
+            const savedPassword = localStorage.getItem('senha');
+
+            // Verifique as credenciais
+            if (username === savedEmail && password === savedPassword) {
+                // Se as credenciais são válidas, exiba um alerta e redirecione para a página principal
+                alert('Login bem-sucedido! Redirecionando para a página principal.');
+                // Redirecione para minha home
+                window.location.href = '../HTML/ARQUIVO.HTML';
+            } else {
+                // Se as credenciais são inválidas, exiba um alerta
+                alert('Login falhou. Verifique suas credenciais.');
+            }
+                });
         });
     </script>
     
@@ -52,8 +63,6 @@
             <p>Ainda não tem conta? <a href="../HTML/cadastro.html" class="cadastroEdit">Cadastrar aqui</a></p>
         </form>
     </div>
-
-    <script src="../JS/login.js"></script>
 </body>
 </html>
 
