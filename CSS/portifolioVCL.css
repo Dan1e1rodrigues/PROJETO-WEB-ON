@@ -15,7 +15,7 @@ body {
 
 /* Estilos para o cabeçalho */
 header {
-    background-color: #F87509;
+    background-color: #FDC435;
     color: #fff;
     padding: 10px 0;
     display: flex;
@@ -44,7 +44,7 @@ header nav a {
 
 /* Botão de contato da home  */
 .contact-button {
-    background-color: #F87509;
+    background-color: #FDC435;
     color: #fff;
     padding: 10px 20px;
     border: solid;
@@ -75,7 +75,7 @@ button {
 
 /* Agora pagina de descrção senac */
 .meu-retangulo {
-    background-color: #F87509;
+    background-color: #FDC435;
     display: flex;
     max-width: 1200px;
     margin: 20px auto;
@@ -164,7 +164,7 @@ footer {
     background-color: #ffffff;
     color: #4a4848;
     padding: 10px 0;
-    border-bottom: 20px solid  #F87509;
+    border-bottom: 20px solid  #FDC435;
     margin: 0;
     text-align: center;
     font-size: 15px;
@@ -198,7 +198,7 @@ footer {
 }
 
 .social-media a {
-    color: #F87509;
+    color: #FDC435;
     font-size: 50px;
 }
 
@@ -267,7 +267,7 @@ p {
 
 .card-body h2 a {
     text-decoration: none; /* Remove o sublinhado */
-    color: #F87509; /* Define a cor do texto para a cor desejada */
+    color: #FDC435; /* Define a cor do texto para a cor desejada */
     cursor: pointer; /* Muda o cursor ao passar por cima para indicar que é clicável */
   }
   
@@ -279,7 +279,7 @@ p {
 
 /* Restante dos estilos específicos de cada seção aqui */
 .yellow-line {
-    background-color: #F87509;
+    background-color: #FDC435;
     height: 5px;
     width: 100px;
     margin: 0 auto;
@@ -448,7 +448,7 @@ p {
     display: block;
     width: 100px;
     height: 5px;
-    background-color: #F87509;
+    background-color: #FDC435;
     margin: 10px auto;
   }
 
@@ -467,7 +467,7 @@ p {
   
   /* Classe para a cor do texto do título */
   .title-color {
-    color: #F87509;
+    color: #FDC435;
   }
 
   /* Banner para andorid */

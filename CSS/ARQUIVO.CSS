@@ -15,7 +15,7 @@ body {
 
 /* Estilos para o cabeçalho */
 header {
-    background-color: #F87509;
+    background-color: #FDC435;
     color: #fff;
     padding: 10px 0;
     display: flex;
@@ -44,7 +44,7 @@ header nav a {
 
 /* Botão de contato da home  */
 .contact-button {
-    background-color: #F87509;
+    background-color: #FDC435;
     color: #fff;
     padding: 10px 20px;
     border: solid;
@@ -75,7 +75,7 @@ button {
 
 /* Agora pagina de descrção senac */
 .meu-retangulo {
-    background-color: #F87509;
+    background-color: #FDC435;
     display: flex;
     max-width: 1200px;
     margin: 20px auto;
@@ -164,7 +164,7 @@ footer {
     background-color: #ffffff;
     color: #4a4848;
     padding: 10px 0;
-    border-bottom: 20px solid  #F87509;
+    border-bottom: 20px solid  #FDC435;
     margin: 0;
     text-align: center;
     font-size: 15px;
@@ -198,7 +198,7 @@ footer {
 }
 
 .social-media a {
-    color: #F87509;
+    color: #FDC435;
     font-size: 50px;
 }
 
@@ -262,7 +262,7 @@ p {
 /* Removwndo o link Talvez remover cor  */
 a {
     text-decoration: none;
-    color: #F87509;
+    color: #FDC435;
 }
 
 /* Estilos para as imagens dentro dos cards (se você quiser incluir imagens) */
@@ -278,7 +278,7 @@ a {
 
 /* Restante dos estilos específicos de cada seção aqui */
 .yellow-line {
-    background-color: #F87509;
+    background-color: #FDC435;
     height: 5px;
     width: 100px;
     margin: 0 auto;
@@ -293,6 +293,6 @@ a {
 /* Estilo para o botão "Fala com a gente" */
 
 .contact-button:hover {
-    background-color: #e6b800;
+    background-color: #FDC435;
 }
 

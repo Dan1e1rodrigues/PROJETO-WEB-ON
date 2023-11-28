@@ -2,12 +2,82 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <!-- Meta name -->
+    <meta name="author" content="Carla, Leo, Victoria">
+    <!-- Meta name descrição -->
+    <meta name="description" content="Pagina inicial Home">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../CSS/ARQUIVO.CSS">
     <title>Meu Portfólio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <!-- Inclua a biblioteca P5.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+
+    <!-- JavaScript function Usando Biblioteca P5.JS-->
+    <script>
+        // P5.js script aqui
+        function setup() {
+      createCanvas(1480, 500, WEBGL);
+    }
+
+      function draw() {
+        background(0);
+        
+      //   1
+        translate(-240, -100, 0);
+        normalMaterial();
+        push();
+        rotateZ(frameCount * 0.01); 
+        rotateX(frameCount * 0.01); 
+        rotateY(frameCount * 0.01); 
+        plane(70);
+        pop();
+        
+      //   2
+        translate(240, 0, 0);
+        push();
+        rotateZ(frameCount * 0.01); 
+        rotateX(frameCount * 0.01); 
+        rotateY(frameCount * 0.01); 
+        box(70, 70, 70);
+        pop();
+      //   3
+        translate(240, 0, 0);
+        push();
+        rotateZ(frameCount * 0.01); 
+        rotateX(frameCount * 0.01); 
+        rotateY(frameCount * 0.01); 
+        cylinder(70,70);
+        pop();
+      //   4
+        translate(-240 * 2, 200,0);
+        normalMaterial();
+        push();
+        rotateZ(frameCount * 0.01); 
+        rotateX(frameCount * 0.01); 
+        rotateY(frameCount * 0.01); 
+        cone(70);
+        pop();
+      //   5
+        translate(240 ,0,0);
+        normalMaterial();
+        push();
+        rotateZ(frameCount * 0.01); 
+        rotateX(frameCount * 0.01); 
+        rotateY(frameCount * 0.01); 
+        torus(70);
+        pop();
+      //   6
+        translate(240,0,0);
+        normalMaterial();
+        push();
+        rotateZ(frameCount * 0.01); 
+        rotateX(frameCount * 0.01); 
+        rotateY(frameCount * 0.01); 
+        sphere(70);
+        pop();
+        }
+    </script>
 </head>
 <body>
 
@@ -26,79 +96,12 @@
             <img src="../ASSETS/LOGO/logoPerfilIlustrativa.jpeg" alt="Logo Redonda" class="logo-redonda">
         </div>
     </nav>
-</header>
+  </header>
 
     <!-- Banner simples -->
     <div class="banner">
       <img src="../ASSETS/ArquivosC/banner 1.png" alt="Banner Image">
     </div>
-
-     <!-- Seção P5.js -->
-  <script>
-    function setup() {
-  createCanvas(1480, 500, WEBGL);
-}
-
-function draw() {
-  background(0);
-  
-//   1
-  translate(-240, -100, 0);
-  normalMaterial();
-  push();
-  rotateZ(frameCount * 0.01); 
-  rotateX(frameCount * 0.01); 
-  rotateY(frameCount * 0.01); 
-  plane(70);
-  pop();
-  
-//   2
-  translate(240, 0, 0);
-  push();
-  rotateZ(frameCount * 0.01); 
-  rotateX(frameCount * 0.01); 
-  rotateY(frameCount * 0.01); 
-  box(70, 70, 70);
-  pop();
-//   3
-  translate(240, 0, 0);
-  push();
-  rotateZ(frameCount * 0.01); 
-  rotateX(frameCount * 0.01); 
-  rotateY(frameCount * 0.01); 
-  cylinder(70,70);
-  pop();
-//   4
-  translate(-240 * 2, 200,0);
-  normalMaterial();
-  push();
-  rotateZ(frameCount * 0.01); 
-  rotateX(frameCount * 0.01); 
-  rotateY(frameCount * 0.01); 
-  cone(70);
-  pop();
-//   5
-  translate(240 ,0,0);
-  normalMaterial();
-  push();
-  rotateZ(frameCount * 0.01); 
-  rotateX(frameCount * 0.01); 
-  rotateY(frameCount * 0.01); 
-  torus(70);
-  pop();
-//   6
-  translate(240,0,0);
-  normalMaterial();
-  push();
-  rotateZ(frameCount * 0.01); 
-  rotateX(frameCount * 0.01); 
-  rotateY(frameCount * 0.01); 
-  sphere(70);
-  pop();
-
-  
-}
-  </script>
 
     <div class="meu-retangulo">
       <div class="imagem-container">
@@ -179,7 +182,7 @@ function draw() {
           </div>  
         </div>            
     </div>
-    <img src="../ASSETS/ArquivosL/Foto Leonardo.png" alt="Victoria França" class="profile-image">
+    <img src="../ASSETS/ArquivosL/Foto Leonardo.png" alt="Leonardo" class="profile-image">
 </section>
 
 <div class="text-center">
@@ -193,7 +196,7 @@ function draw() {
       <!-- Conteúdo da segunda seção aqui -->
       <div>
           <!-- <p style="color: #F87509;">Design</p> -->
-          <h2 class="justified" style="color: #343de8;">Notinha.</h2>
+          <h2 class="justified" style="color: #004B8D;"><a href="../HTML/leoNotinha.html">Notinha.</a></h2>
           <p>Atualmente estou 2° semestre do curso de Design. Minha trajetória acadêmica começou em Análise e Desenvolvimento de Sistemas (ADS), mas foi transição para Design que descobri verdadeiramente minha paixão. Aqui, na interseção entre lógica e estética, encontrei meu caminho.</p>
       </div>            
   </div>
@@ -230,7 +233,7 @@ function draw() {
           </div>
           <div class="card-body">
             <img src="../ASSETS/ArquivosV/Captura de tela 2023-11-11 195109.png">
-            <h2 class="justified" style="color: #343de8;"><a href="../HTML/vicMinimize.html">Minimize.</a></h2>
+            <h2 class="justified" style="color: #004B8D;"><a href="../HTML/vicMinimize.html">Minimize.</a></h2>
             <p>Projeto: Editar (2° Semestre) O backstage do desperdicio de alimentos nas grandes destribuidoras e seu impacto na sociedade.</p>
           </div>
         </div>
@@ -241,7 +244,7 @@ function draw() {
           </div>
           <div class="card-body">
             <img src="../ASSETS/ArquivosV/Captura de tela 2023-11-11 195324.png" alt="Descrição da imagem 2">
-            <h2 class="justified" style="color: #343de8;"><a href="../HTML/vicLembrantia.html">Lembrantia.</a></h2>
+            <h2 class="justified" style="color: #004B8D;"><a href="../HTML/vicLembrantia.html">Lembrantia.</a></h2>
             <p>Projeto: Sentir (1° Semestre) Uma vida para ser registrada e lembrada. Com o Lembrantia, você pode eternizar suas lembranças mais preciosas em páginas personalizáveis. Escreva, desenhe, cole fotos e reviva momentos importantes da sua vida.</p>
           </div>
         </div>
@@ -261,7 +264,7 @@ function draw() {
             </div>
 
                 <div class="section contact-info">
-                    <h3 style="color: #343de8;">Contato</h3>
+                    <h3 style="color: #004B8D;">Contato</h3>
                     <ul>
                         <li>
                             <p style="color: #F87509;"><strong>Victoria França</strong></p>
@@ -285,7 +288,7 @@ function draw() {
 
                 <!-- Arrumar novamente as redes sociais -->
                 <div class="section social-media">
-                    <h3 style="color: #343de8;">Redes Sociais</h3>
+                    <h3 style="color: #004B8D;">Redes Sociais</h3>
                     <ul class="social-icons">
                         <li><a href="#"><i class="fab fa-instagram social-icon"></i></a></li>
                         <li><a href="https://www.linkedin.com/in/victoria-oliveira-frança-baa0b3a1/"><i class="fab fa-linkedin"></i></a></li>

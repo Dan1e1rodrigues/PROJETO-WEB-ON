@@ -5,6 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de Cadastro</title>
     <link rel="stylesheet" type="text/css" href="../CSS/cadastro.css">
+    
+    <!-- JavaScript incorporado -->
+    <script>
+        // Função evento DOM
+        document.addEventListener('DOMContentLoaded', function() {
+            // Vai buscar as informações contidas dentro do form 
+            const form = document.querySelector('form');
+
+            // Function evento de submissão   
+            form.addEventListener('submit', function(event) {
+                event.preventDefault();
+
+                const email = document.getElementById('email').value;
+                const senha = document.getElementById('senha').value;
+
+                // Salve o email e senha no localStorage (não recomendado em um ambiente real)
+                localStorage.setItem('email', email);
+                localStorage.setItem('senha', senha);
+
+                alert('Cadastro bem-sucedido!');
+                window.location.href = '../HTML/login.html'; // Redirecione para a página de login
+            });
+        });
+    </script>
 </head>
 <body>
     <div class="container">
@@ -22,8 +46,7 @@
 
             <button type="submit">Salvar Login</button>
 
-            <p>Voltar para pagina de <a href="../HTML/login.html" class="cadastroLink">Login</a></p>
-            
+            <p>Voltar para a página de <a href="../HTML/login.html" class="cadastroLink">Login</a></p>
         </form>
     </div>
 

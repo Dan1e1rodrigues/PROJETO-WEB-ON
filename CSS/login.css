@@ -26,10 +26,11 @@ form {
   display: flex;
   flex-direction: column;
   border-radius: 10px;
+  margin-top: 20px; /* Adicionando um espaço acima do formulário */
 }
 
 label {
-  margin-bottom: 40px;
+  margin-bottom: 10px; /* Reduzindo o espaçamento entre rótulos */
   color: #555;
 }
 
@@ -42,29 +43,30 @@ input {
 }
 
 button {
-  background-color: #F87509;
+  background-color: #f87509;
   color: #fff;
   padding: 10px;
   border: none;
   border-radius: 3px;
   cursor: pointer;
+  margin-top: 10px; /* Adicionando um espaço acima do botão */
 }
 
 button:hover {
   background-color: #a5a312;
 }
 
-.loginEdit{
-  color:#F87509;
+.loginEdit {
+  color: #f87509;
   font-size: 20px;
 }
 
-.cadastroEdit{
-  color:#F87509;
-  text-decoration: none; /* Remove sublinhado */
+.cadastroEdit {
+  color: #f87509;
+  text-decoration: none;
 }
 
 .ImagemLogo {
-  width: 200px; /* Ou qualquer valor desejado para a largura */
-  height: 100px; /* Ou qualquer valor desejado para a altura */
+  width: 200px;
+  height: 100px;
 }
