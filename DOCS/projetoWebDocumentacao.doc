@@ -1,47 +1,125 @@
-Documentação do Projeto "Projeto Programar"
+Documentação do Projeto Web
 Visão Geral
 Descrição do Projeto
-Este projeto consiste em um website desenvolvido para [insira aqui a finalidade do website, por exemplo, apresentação pessoal, portfólio, etc.]. Ele foi criado utilizando HTML, CSS e possivelmente outras tecnologias conforme mencionado nos códigos fornecidos.
+O projeto consiste em um portfólio online colaborativo que destaca as habilidades e projetos de três estudantes do Centro Universitário SENAC: Carla Edwirges, Leonardo Costa de Moraes e Victória França. Cada estudante tem uma seção dedicada com informações sobre sua formação, paixões, projetos e links para seus perfis no LinkedIn.
+A estrutura do site inclui uma página inicial comum que apresenta uma animação visual usando a biblioteca P5.js, representando elementos gráficos em 3D. A seção "Sobre" fornece informações detalhadas sobre Carla Edwirges, incluindo sua experiência como Designer UX/UI e uma imagem de perfil. Há também uma seção destacando projetos notáveis do semestre.
+A segunda seção é dedicada a Leonardo Costa de Moraes, apresentando informações sobre seu perfil como designer, acompanhado de uma imagem de perfil e projetos destacados do semestre
+A terceira seção concentra-se em Victória França, destacando seu interesse em design, sua jornada acadêmica e projetos notáveis.
+O rodapé do site inclui informações de contato para cada estudante, juntamente com links para redes sociais, como LinkedIn, Instagram e e-mail. Além disso, há uma breve descrição institucional e uma imagem do logotipo do projeto.
+O código do projeto é organizado em HTML, CSS e JavaScript. Foram aplicadas práticas de design responsivo para garantir uma experiência consistente em diferentes dispositivos.
+Em termos de design, o projeto utiliza uma paleta de cores predominantemente composta por tons de azul e laranja, proporcionando uma estética moderna e vibrante. A tipografia e o layout foram escolhidos para melhorar a legibilidade e a experiência do usuário.
+O portfólio é uma ferramenta eficaz para os estudantes demonstrarem suas habilidades, experiências e paixões, proporcionando uma vitrine virtual para potenciais clientes, empregadores e parceiros de negócios.
 
 Equipe
-[Seu Nome]
-[Outro Membro da Equipe, se aplicável]
-Tecnologias Utilizadas
-HTML
-CSS
-JavaScript (se aplicável)
+Carla Santos.
+Leonardo Moraes.
+Victória França.
+
 Estrutura de Diretórios
 A estrutura de diretórios do projeto é organizada da seguinte maneira:
 
 ASSETS: Contém recursos estáticos, como imagens e arquivos de estilo.
 HTML: Armazena os arquivos HTML que compõem diferentes seções do website.
-Instalação
-Pré-requisitos
-Para executar este projeto localmente, você precisará de um navegador da web instalado em seu computador.
+CSS: Armazena os arquivos CSS que compõem diferentes estilizações do website.
+JS: Funcionalidades.
 
-Instruções de Instalação
-Clone este repositório: git clone https://seu-repositorio.git
-Abra o arquivo HTML principal em seu navegador.
-Uso
-Ambiente de Desenvolvimento
-Para desenvolver no projeto, abra os arquivos HTML e CSS em um editor de texto ou IDE de sua escolha.
+HTML
+Página Principal (arquivo.html)
+O arquivo index.html contém a estrutura principal da página inicial do website, incluindo o cabeçalho, seções de conteúdo e o rodapé. Página principal com menu de navegação para demais páginas.
+Página Principal (login.html)
+Página de entrada com opções de login e senha, ou cadastro.
+Página com implementação com código da biblioteca p5.js ou three.js
+Ao decorrer do projeto foi usado a Biblioteca p5.js para atribuir mais identidade a página e possível encontra-la ao após o footer. Ela possui 6 formas geométricas e ficam e rotação.
+Página principal com menu de navegação para demais páginas.
+Na home e possível navegar em cada pagina de portifólio individual dos integrantes do grupo.
+Página(s) do portifólio de cada membro do grupo.
+Páginas de portifólio individuais de cada integrante do grupo, contendo seus projetos pessoais. 
 
-Produção
-O projeto está pronto para ser implantado em qualquer servidor da web. Basta carregar os arquivos HTML, CSS e a pasta ASSETS.
+Estrutura do Cabeçalho
+Meta Tags: Inclui meta-tags no head para autor, descrição, charset, e links para os arquivos CSS externos.
+Navegação: Links para diferentes seções do website.
+Botões do Cabeçalho: Botões de ação, como "Fala com a gente" e ícones de redes sociais.
+Seção "Meu Retângulo"
+Uma seção específica chamada meu-retangulo com uma estrutura de imagem e texto.
+Seção "Sobre" (section#sobre)
+Um cabeçalho e navegação específicos para a seção "Sobre".
+Rodapé
+Informações gerais, texto sobre a instituição e ícones de redes sociais.
+Página de Contato (contact.html)
+A página contact.html contém um formulário de contato, botões e detalhes de contato.
 
-Arquivos de Configuração
-CSS: O arquivo principal de estilos é style.css.
-HTML: Os arquivos HTML estão localizados na pasta HTML.
-Estilos de Codificação
-O projeto segue as melhores práticas de codificação HTML e CSS. Certifique-se de manter consistência no estilo de codificação ao contribuir.
+Seção "Contate Carla Santos"
+Um título, botões com links para o LinkedIn e download do resumo.
+Informações sobre entrar em contato e ícones de email e telefone.
+Formulário de Contato
+Campos para nome, email, website e mensagem.
+Botão para enviar mensagens.
+CSS
+Arquivo de Estilo (style.css)
+O arquivo style.css contém os estilos globais e específicos para diferentes seções do website.
 
-Contribuição
-Se você deseja contribuir para este projeto, abra um problema ou envie uma solicitação de pull. Todas as contribuições são bem-vindas!
+Estilos Globais
+Configuração do corpo (body), fonte, cores de fundo e margens.
+Estilos para o cabeçalho, navegação, botões, rodapé e imagens.
+Seção "Meu Retângulo"
+Estilos específicos para a seção meu-retângulo.
+Seção "Sobre"
+Estilos para o cabeçalho, navegação e botões da seção "Sobre".
+Rodapé
+Estilos para o rodapé, texto "Sobre a Instituição" e ícones de redes sociais.
+Outras Seções
+Estilos específicos para outras seções do website, como cards, banners e formulários.
 
-Problemas Conhecidos
-[Descreva qualquer problema conhecido aqui, juntamente com possíveis soluções.]
-Licença
-Este projeto está sob a licença [insira aqui a licença utilizada, por exemplo, MIT].
+Pesquisa e Referências
+Durante o desenvolvimento, foram consultados os seguintes materiais:
+Documentação Online: 
+W3C. "HTML5 Specification". www.w3.org/TR/html5, Acesso em 15 de novembro de 2023.
+Stackoverflow. https://stackoverflow.com, Acesso 20 de novembro de 2023
+Materias fornecidos pelo professor, aulas, documentação e vídeo aulas
 
-Contato
-Para entrar em contato com a equipe do projeto, utilize [insira aqui suas informações de contato, como e-mail ou redes sociais].
+IDEs para codificação
+Visual Studio Code.
+
+Ferramentas Utilizadas
+O desenvolvimento foi realizado utilizando as seguintes ferramentas:
+
+HTML
+CSS
+JAVASCRIPT
+BIBLIOTECA P5.JS
+
+Testes de Navegadores
+O website foi testado nos seguintes navegadores:
+
+Google Chrome
+Mozilla Firefox
+Safari
+Microsoft Edge
+
+Paleta de Cores
+A paleta de cores utilizada no projeto inclui:
+
+#F87509 
+#FDC435
+# 004B8D
+#FFFBF0
+#4a4848
+#333
+#a5a312
+#000000
+
+Fontes: 
+Nunito,
+Roboto, 
+Playfair display
+
+Wireframe de todas as páginas (para desktop e smartphone)
+[WIREFRAME TELA DE LOGIN]
+[WIREFRAMES HOME]
+[WIREFRAMES SOBRE PROJETO]
+[WIREFRAMES PORTIFOLIO PESSOAL]
+[WIREFRAMES ESBOÇO ORIGINAL]
+[WIREFRAMES ESBOÇO ORIGINAL]
+
+
+ 
