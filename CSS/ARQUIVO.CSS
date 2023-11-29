@@ -1,7 +1,7 @@
 /* Estilos globais */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: Nunito, roboto, playfair display;
+    background-color: #fff;
     margin: 0;
     padding: 0;
 }
@@ -251,7 +251,7 @@ p {
 
 /* Estilos para os cards */
 .card {
-    border: 1px solid #ccc;
+    border: 1px solid #fff;
     border-radius: 8px;
     margin: 10px;
     padding: 20px;

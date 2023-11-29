@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Nunito, roboto, playfair display;
   background-color: #f2f2f2;
   margin: 0;
   padding: 0;
@@ -37,7 +37,7 @@ label {
 input {
   padding: 10px;
   margin: 5px 0;
-  border: 1px solid #ccc;
+  border: 1px solid #fff;
   border-radius: 3px;
   outline: none;
 }
